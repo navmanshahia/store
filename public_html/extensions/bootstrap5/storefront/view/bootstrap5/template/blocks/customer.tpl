@@ -3,7 +3,9 @@
 <?php if ($active) { ?>
         <li class="nav-item d-block d-md-none">
             <a class="nav-link active"
-               href="<?php echo $account; ?>">
+               href="<?php
+               echo $account;
+               ?>">
                 <?php echo $text_welcome.' '.$name; ?>
             </a>
         </li>
